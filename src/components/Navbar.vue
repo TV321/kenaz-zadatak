@@ -97,7 +97,7 @@ export default {
             &:hover
                 background-color: #299ec3
                 border-bottom: 0               
-            &.router-link-exact-active
+            // &.router-link-exact-active
             &.router-link-active
                 background-color: #299ec3
                 border-bottom: 0

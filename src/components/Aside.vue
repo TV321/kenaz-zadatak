@@ -42,7 +42,7 @@ export default {
             color: #ffffff
             font-size: .8em
             &.router-link-exact-active,
-            // &.router-link-active
+            &.router-link-active
                 color: #efbb4f
                 &::after
                     content: ""
@@ -71,8 +71,6 @@ export default {
                 border-bottom: 1px solid #ffffff
     @media all and (max-width: 992px) 
         #aside
-            #header
-            #content
             a
                 &.router-link-exact-active
                     &::after

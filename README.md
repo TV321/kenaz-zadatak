@@ -1,4 +1,4 @@
-# kenaz
+# kenaz-zadatak
 
 ## Project setup
 ```
