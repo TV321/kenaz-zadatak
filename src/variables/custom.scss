@@ -1,0 +1,25 @@
+// Define your variable overrides here
+$enable-shadows: true;
+$enable-gradients: true;
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 456px,
+//   md: 789px,
+//   lg: 999px,
+//   xl: 1234px
+// );
+// $grid-columns: 12 !default;
+$grid-gutter-width: 20px !default;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  // xl: 960px
+);
+$bv-enable-table-stacked: false;
+
+// Include Bootstrap and BootstrapVue SCSS files
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+
+// General style overrides and custom classes
